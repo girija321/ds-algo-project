@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
             
                 dryRun=false,
                // monochrome=true,
-                plugin={"pretty", "html:test-output"})
+                plugin={"pretty", "html:test-output","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 
 public class RunnerClass {
 

@@ -1,4 +1,4 @@
-package PageObjects;
+package PageObjrctModel;
 
 
 import java.time.Duration;
@@ -12,7 +12,8 @@ import org.openqa.selenium.support.locators.RelativeLocator;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import Utilities.Helper;
+import Utlity.Helper;
+
 
 public class Arraypage extends Helper {
          protected static String string = "Array";

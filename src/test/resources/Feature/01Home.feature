@@ -1,3 +1,4 @@
+
 Feature: feature to test home page
    @smoke
   Scenario: The user opens DS Algo portal link 1
