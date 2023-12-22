@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features={"src/test/resources/Feature"}, glue={"StepDefinations", "ApplicationHooks"}, tags="@smoke",
+@CucumberOptions(features={"src/test/resources/Feature"}, glue={"StepDefinations", "ApplicationHooks"}, //tags="@smoke",
             
                 dryRun=false,
                // monochrome=true,
