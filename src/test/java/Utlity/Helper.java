@@ -43,7 +43,7 @@ public class Helper extends BaseClass {
      driver.manage().window().maximize(); */
        }
     public static void openPage(String URL) {
-        driver.get(URL);
+        driver.navigate().to("https://dsportalapp.herokuapp.com/home");
     }
     public static String getTitle() {
         return driver.getTitle();

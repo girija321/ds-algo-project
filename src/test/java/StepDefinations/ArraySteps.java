@@ -1,9 +1,12 @@
 package StepDefinations;
 
+import java.sql.DriverManager;
 import java.util.List;
 import java.util.Map;
 
 import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -23,16 +26,24 @@ public class ArraySteps extends Arraypage{
 	 public static ExtentReports extent = null ;
 	 public static ExtentTest scenario = null;
 	 
+	 SoftAssert SoftAssert1 = new SoftAssert();
+	 
 	 @Given("User is in homepage")
 	 public void user_is_in_homepage() throws InterruptedException {
 			
 		 System.out.println("User is in homepage");
 		 
-	    	ExtentSparkReporter spark = new ExtentSparkReporter("target/spark.html");
+		 openPage("https://dsportalapp.herokuapp.com/home");
+		 	
+	    	ExtentSparkReporter spark = new ExtentSparkReporter("target/test/SparkReport/spark.html");
 	    	
 	    	extent = new ExtentReports();
 	    	extent.attachReporter(spark);
 	    	scenario = extent.createTest("Sample Feature Test2");
+	    	
+	    	clickonsignin();
+	    	 enterUsername();
+	    	 enterLogin();	    	
 	 }
 
 	 @When("User clicks the Getting Started button in Array Pane")
@@ -78,17 +89,26 @@ public class ArraySteps extends Arraypage{
 	 }
 	    @Then("The user should be redirected to {string} page")
 	    public void The_user_should_be_redirected_to_page(String string) {
-	    	
+	    
 	    	System.out.println(string);
-	    	directoarraypage();
+	    	 //directoarraypage();
 	    	
-	    	scenario.log(Status.PASS,"Test passed successfully");
-	    	scenario.pass("Pass");
+	    	//scenario.log(Status.PASS,"Test passed successfully");
+	    	//scenario.pass("Pass");
 	    	
-	    	scenario.log(Status.FAIL,"Test not passed successfully");
-	    	scenario.pass("Fail");
-	    	Assert.assertEquals(arr,string);
-	    	extent.flush();
+	    	//scenario.log(Status.FAIL,"Test not passed successfully");
+	    	//scenario.pass("Fail");
+	    	  
+	    	//scenario.log(Status.PASS,"Test passed successfully");
+	    	//scenario.pass("Pass");
+	    //	System.out.println("gettitle"+arr);
+	    //	System.out.println("String passed"+string);
+	    //	System.out.println("message:"+message);
+	    //	SoftAssert1.assertEquals(arr1,string);
+	    	Assert.assertEquals(string,directoarraypage()) ;
+	    	//SoftAssert1.assertAll();     
+	        //extent.flush();
+	    	
 	    }
 	    @When("The user clicks {string} button in Arrays in Python page")
 	    	public void The_user_clicks_button_in_Arrays_in_Python_page(String string) {

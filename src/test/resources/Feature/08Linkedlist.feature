@@ -15,7 +15,7 @@ Feature: Linkedlist module
 
   @tag2
   Scenario Outline: user enter python code "<Input>"
-    Given The excel is located "C:\Users\chand\eclipse-workspace\dsalgo-project\src\test\java\testData\Ds-text.xlsx"
+    Given The excel is located "D:\GirijaRepo\src\test\resources\TestData\Ds-text.xlsx"
     When User enters sheetname as "<sheetname>" and RowNumber <RowNumber>
     And User clicks on run buttons
     Then output "<output>" generated

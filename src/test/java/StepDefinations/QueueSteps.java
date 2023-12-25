@@ -44,7 +44,7 @@ public class QueueSteps extends BaseClass {
 	public void user_enters_and_row_number(String sheetName, Integer rowNumber) throws IOException, InvalidFormatException {
 		ExcelReader reader = new ExcelReader();
 		List<Map<String,String>> testData = 
-	reader.getData("C:/Users/admin/git/localds-algo/ds-algo-project/src/test/resources/TestData/testDataTextBox.xlsx", sheetName);
+	reader.getData("D:\\GirijaRepo\\src\\test\\resources\\TestData\\testDataTextBox.xlsx", sheetName);
 	String input = testData.get(rowNumber).get("Input");
    // String output= testData.get(rowNumber).get("output");
       queue.enterOnTextBox(input);

@@ -33,6 +33,17 @@ public class Arraypage extends Helper {
 	 protected static By loginbutt = By.xpath("//input[@value='Login']");
 	 static By signin = By.xpath("//a[@href='/login']");
 	 static By pq= By.xpath("//a[@class='list-group-item list-group-item-light text-info']");
+	 static By Sigin  = By.xpath("//a[text()='Sign in']");
+	 static By Username = By.name("username");
+	 static	By password = By.name("password");
+	 static	By login  = By.xpath("//input[@type='submit']");
+	 static	 By SiginOut  = By.xpath("//a[text()='Sign out']");
+	
+		 
+			public void clickOnSignout() {
+				driver.findElement(SiginOut).click();
+			}
+			
      
      protected static By output = By.id("output");
      protected static By Password = By.xpath("//*[@id='id_password']");
@@ -52,8 +63,8 @@ public class Arraypage extends Helper {
 		 }
 	 
      public static String directoarraypage() {
-    	 	 arr = driver.getTitle();
-             System.out.println(arr+"page1234");
+    	 	arr = driver.getTitle();
+             
              return arr;      
      }
      
@@ -106,17 +117,13 @@ public class Arraypage extends Helper {
     	 
         clickOnWebelement(element,10);
     	 
-    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
- 		element= wait.until(ExpectedConditions.elementToBeClickable(element));
+    //	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+ 	//	element= wait.until(ExpectedConditions.elementToBeClickable(element));
     	Actions act = new Actions(driver); 
     	//element.click();
     	//element.sendKeys(Code);
  		((act.moveToElement(element)).sendKeys(Code)).build().perform();
- 					
-    	 
-     
-     	
-     	return Code;
+ 					return Code;
      	
      }
      
@@ -187,9 +194,20 @@ public class Arraypage extends Helper {
         
      } 
   	
-    	 
+     public void enterUsername() {
+ 		driver.findElement(Username).sendKeys("Ninjabonds");
+ 		driver.findElement(password).sendKeys("Ninja@123");
+ 	}
+ 	
+ 	
+ 	public void enterLogin() {
+ 		driver.findElement(login).click();
+     }
+ 	
+ 	public void clickonsignin() {
+ 		driver.findElement(signin).click();
      }
 
-
+}
 
      

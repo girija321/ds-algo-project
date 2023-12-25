@@ -7,9 +7,9 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features={"src/test/resources/Feature"}, glue={"StepDefinations", "ApplicationHooks"}, //tags="@smoke",
-            
-                dryRun=false,
+@CucumberOptions(features={"src/test/resources/Feature"}, glue={"StepDefinations", "ApplicationHooks"},
+          
+                //dryRun=false,
                // monochrome=true,
                 plugin={"pretty", "html:test-output","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 

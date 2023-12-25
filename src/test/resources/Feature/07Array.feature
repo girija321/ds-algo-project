@@ -16,7 +16,7 @@ Feature: Array module
 
   @tag2
   Scenario Outline: user enter python code "<Input>"
-    Given The excel file is located "C:\Users\chand\eclipse-workspace\dsalgo-project\src\test\java\testData\Ds-text.xlsx"
+    Given The excel file is located "D:\GirijaRepo\src\test\resources\TestData\Ds-text.xlsx"
     When User enters sheetname as "<sheetname>" and rowNumber <rowNumber>
     And User clicks on run button
     Then output "<output>" is generated
