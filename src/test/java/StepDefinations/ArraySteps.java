@@ -26,7 +26,7 @@ public class ArraySteps extends Arraypage{
 	 public static ExtentReports extent = null ;
 	 public static ExtentTest scenario = null;
 	 
-	 SoftAssert SoftAssert1 = new SoftAssert();
+	 
 	 
 	 @Given("User is in homepage")
 	 public void user_is_in_homepage() throws InterruptedException {
@@ -91,23 +91,10 @@ public class ArraySteps extends Arraypage{
 	    public void The_user_should_be_redirected_to_page(String string) {
 	    
 	    	System.out.println(string);
-	    	 //directoarraypage();
+	    	directoarraypage();
+	    	Assert.assertTrue("Verification passed:Element1 and Element2 are same.",arr.equals(string)) ;
 	    	
-	    	//scenario.log(Status.PASS,"Test passed successfully");
-	    	//scenario.pass("Pass");
-	    	
-	    	//scenario.log(Status.FAIL,"Test not passed successfully");
-	    	//scenario.pass("Fail");
-	    	  
-	    	//scenario.log(Status.PASS,"Test passed successfully");
-	    	//scenario.pass("Pass");
-	    //	System.out.println("gettitle"+arr);
-	    //	System.out.println("String passed"+string);
-	    //	System.out.println("message:"+message);
-	    //	SoftAssert1.assertEquals(arr1,string);
-	    	Assert.assertEquals(string,directoarraypage()) ;
-	    	//SoftAssert1.assertAll();     
-	        //extent.flush();
+	        extent.flush();
 	    	
 	    }
 	    @When("The user clicks {string} button in Arrays in Python page")

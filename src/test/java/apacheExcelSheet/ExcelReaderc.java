@@ -47,7 +47,7 @@ public class ExcelReaderc {
 	
 	List<Map<String, String>> excelRows = new ArrayList<Map<String, String>>();
 	
-	for (int currentRow =1 ;currentRow <= totalRow;currentRow++) {
+	for (int currentRow =1 ;currentRow <= totalRow ;currentRow++) {
 		
 		row = sheet.getRow(currentRow);
 		int totalColumn	= row.getLastCellNum();
