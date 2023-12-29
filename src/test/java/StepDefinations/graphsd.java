@@ -23,7 +23,7 @@ public class graphsd extends BaseClass {
 	@Given("The user is in the Home page after logged in")
 	public void the_user_is_in_the_home_page_after_logged_in() {
 		driver.navigate().to("https://dsportalapp.herokuapp.com/home");
-		//gp = new Graph(BaseClass.driver);
+		
 	}
 
 	@When("The user clicks the Getting Started button in Graph Pane or select Graph item from the drop down menu")

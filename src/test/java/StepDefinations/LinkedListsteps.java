@@ -77,7 +77,7 @@ public class LinkedListsteps extends PageObjrctModel.LLpage{
 
 	 @Given("The excel is located {string}")
 	 public void the_excel_is_located(String string) {
-	     // Write code here that turns the phrase above into concrete actions
+	     
 		 excelFlPath = string;
 		 
 	 }

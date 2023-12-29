@@ -36,7 +36,7 @@ public class RegistrySteps extends BaseClass {
 	 
 	@Then("user gets errortext message {string}")
 	public void user_gets_errortext_message(String messageValidate) throws InterruptedException {
-		// Assert.assertEquals(messageValidate, rst.messageValidation(rst.Username)) ;
+		
 		// Assert.assertEquals(messageValidate, rst.messageValidation(rst.password)) ;
 		Assert.assertEquals(messageValidate, rst.messageValidation()) ;
 		Assert.assertEquals(messageValidate, rst.messageValidationforP()) ;

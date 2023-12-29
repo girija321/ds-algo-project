@@ -14,7 +14,6 @@ public class datastrucsd extends BaseClass{
 	 = new DataStructure(BaseClass.driver);
 	@Given("The user is in home page after log in")
 	public void the_user_is_in_home_page_after_log_in() {
-		//ds = new DataStructure(BaseClass.driver);
 		 driver.navigate().to("https://dsportalapp.herokuapp.com/home");
 	}
 	@When("the user click get started button")

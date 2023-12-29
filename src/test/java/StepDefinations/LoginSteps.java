@@ -33,7 +33,7 @@ public class LoginSteps extends BaseClass {
 //		   lp.enterPassword(map.get("Username"));
 //		   lp.enterPassword(map.get("password"));
 	   List<String> list = dataTable.row(0) ;
-	     lp.enterUsername( list.get(0));   //map.get("Username");
+	     lp.enterUsername( list.get(0));   
 	     lp.enterPassword(list.get(0));    //   map.get("password");
 	}
 	@Then("user gets errortext below password test {string}")

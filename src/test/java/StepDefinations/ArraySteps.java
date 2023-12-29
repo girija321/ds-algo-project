@@ -83,7 +83,7 @@ public class ArraySteps extends Arraypage{
 		 
 		 clickarrayinpython();
 		 
-		// extent.createTest("MyFirstTest").assignAuthor("aventstack").pass("details");
+		
 		 scenario.log(Status.INFO,"Running the Array in python in feature file");
 		 
 	 }
