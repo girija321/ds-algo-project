@@ -68,7 +68,7 @@ public class graphsd extends BaseClass {
 	public void user_enters_and_row_number(String sheetName, Integer rowNumber) throws Exception, IOException {
 		ExcelReader reader = new ExcelReader();
 		List<Map<String,String>> TestData = 
-		reader.getData("C:\\GirijaCode\\ds-algo-project\\src\\test\\resources\\TestData\\datatablesheet.xlsx", sheetName);
+		reader.getData("src/test/resources/TestData/datatablesheet.xlsx", sheetName);
 		String input = TestData.get(rowNumber).get("Input");
 	   // String output= testData.get(rowNumber).get("output");
 		gp.entertext(input);
