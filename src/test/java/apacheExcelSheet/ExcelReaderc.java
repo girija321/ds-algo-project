@@ -12,13 +12,14 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import Utlity.Helper;
 import io.cucumber.core.internal.com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
-public class ExcelReaderc {
+public class ExcelReaderc extends Helper{
 	
 	public int totalRow;
 	
-	@SuppressWarnings({ "resource", "unused" })
+	
 	public List<Map<String ,String>> getData(String excelFilePath,String sheetname)throws InvalidFormatException, IOException, Exception{
 		    
 	 XSSFWorkbook workbook = null;
@@ -27,10 +28,12 @@ public class ExcelReaderc {
 		} catch (IOException e) {
 		
 			e.printStackTrace();
+			logger.error("IOException Occured:");
 		}
 		catch(Exception ex)
 		{
 			ex.printStackTrace();
+			logger.error("Exception Occured:",new Exception("while creating instance of workbook"));
 		}
 		XSSFSheet sheet = workbook.getSheet(sheetname);
 //		workbook.close();

@@ -7,15 +7,14 @@ import io.cucumber.java.en.When;
 import java.util.List;
 import java.util.Map;
 
-
-
-
+import PageObjrctModel.LLpage;
+import Utlity.loggerLoad;
 import apacheExcelSheet.ExcelReaderc;
 
-@SuppressWarnings({ "rawtypes", "serial" })
-public class LinkedListsteps extends PageObjrctModel.LLpage{
+
+public class LinkedListsteps extends LLpage{
 	
-	 @SuppressWarnings("unused")
+	
 	private String excelFlPath;
 	 public String Input;
 
@@ -36,6 +35,7 @@ public class LinkedListsteps extends PageObjrctModel.LLpage{
 	 public void user_be_directed_to_Linked_List_data_structure_page() {
 	     
 	     System.out.println("Linked List pages");
+	     logger.info("User is directed to Linked List pages");
 	 }
 
 	 @When("User select Linked List item from the drop down menu")
@@ -92,10 +92,16 @@ public class LinkedListsteps extends PageObjrctModel.LLpage{
 	     Input =  testdata.get(RowNumber).get("Input");
 	     
 	    if (Input!= null) { 
+	    	
 	    entercode(Input);
-	    
 	    }
-	 }
+	    else
+	    {
+	    logger.warn("Input is Null: Please check excel sheet");	
+	    }
+	    
+	    
+	                    }
 	 @When("User clicks on run buttons")
 	 public void user_clicks_on_run_buttonss() {
 		 clickrun();
@@ -104,6 +110,8 @@ public class LinkedListsteps extends PageObjrctModel.LLpage{
 	 @Then("output {string} generated")
      public void is_generated(String string) {
            System.out.println(string);
+           loggerLoad.info("Validate the output");
+           
            NavBack();
            clickcreatingll();
            Clickontryhere();

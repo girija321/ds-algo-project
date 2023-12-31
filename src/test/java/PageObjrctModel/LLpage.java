@@ -34,7 +34,7 @@ import Utlity.Helper;
      protected static By Password = By.xpath("//*[@id='id_password']");
      
 	   static By signout = By.xpath("//a[text()='Sign out']");  
-	 @SuppressWarnings("unused")
+	
 	public static void clickgetstarted() throws InterruptedException {
 	    WebElement getstart = driver.findElement(dropdownarray);
 		 
@@ -95,7 +95,7 @@ import Utlity.Helper;
     	 WebElement  elements = driver.findElement(Deletion);
     	 (ac.moveToElement(elements).click()).build().perform(); 
      }
-     @SuppressWarnings("unused")
+     
 	public static String entercode(String Code) {
     	 
     	WebElement element = driver.findElement(texteditor);
@@ -105,8 +105,7 @@ import Utlity.Helper;
     	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
  		element= wait.until(ExpectedConditions.elementToBeClickable(element));
     	Actions act = new Actions(driver); 
-    	//element.click();
-    	//element.sendKeys(Code);
+    	
  		((act.moveToElement(element)).sendKeys(Code)).build().perform();
  					
          return Code;

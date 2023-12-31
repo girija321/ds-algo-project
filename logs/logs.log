@@ -1,0 +1,98 @@
+[INFO ] 2023-12-30 20:06:00.700 [main] loggerLoad - User is in homepage
+[INFO ] 2023-12-30 20:06:02.821 [main] loggerLoad - User is in Array pages
+[INFO ] 2023-12-30 20:06:03.221 [main] loggerLoad - Array page
+[INFO ] 2023-12-30 20:06:03.703 [main] loggerLoad - User should in Arrays in Python
+[INFO ] 2023-12-30 20:06:05.034 [main] loggerLoad - The user should be redirected to a page having an tryEditor with a Run button to test
+[DEBUG] 2023-12-30 20:06:05.189 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 20:06:05.192 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-30 20:06:10.872 [main] loggerLoad - Validate the output
+[INFO ] 2023-12-30 20:06:11.032 [main] loggerLoad - Validate the output
+[INFO ] 2023-12-30 21:44:23.670 [main] loggerLoad - User is in homepage
+[INFO ] 2023-12-30 21:44:24.386 [main] Helper - opened Ds-slgo-page
+[INFO ] 2023-12-30 21:44:26.348 [main] loggerLoad - User is in Array pages
+[INFO ] 2023-12-30 21:44:26.796 [main] Helper - Array page
+[INFO ] 2023-12-30 21:44:27.303 [main] loggerLoad - User should in Arrays in Python
+[INFO ] 2023-12-30 21:44:28.914 [main] loggerLoad - The user should be redirected to a page having an tryEditor with a Run button to test
+[DEBUG] 2023-12-30 21:44:29.127 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:44:29.129 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-30 21:44:35.207 [main] loggerLoad - Validate the output
+[DEBUG] 2023-12-30 21:49:13.019 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:49:13.023 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-30 21:49:13.039 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-30 21:49:36.256 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:49:36.258 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-30 21:49:36.260 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-30 21:49:53.336 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:49:53.337 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-30 21:49:53.338 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-30 21:50:10.551 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:50:10.553 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-30 21:50:10.554 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-30 21:50:27.751 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:50:27.752 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-30 21:50:27.753 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-30 21:50:44.709 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:50:44.710 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-30 21:50:44.711 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-30 21:51:01.792 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:51:01.795 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-30 21:51:01.796 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-30 21:51:18.801 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:51:18.802 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-30 21:51:18.802 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-30 21:55:32.361 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:55:32.363 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-30 21:55:49.859 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:55:49.861 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-30 21:56:10.006 [main] loggerLoad - User is in homepage
+[INFO ] 2023-12-30 21:56:10.717 [main] Helper - opened Ds-slgo-page
+[INFO ] 2023-12-30 21:56:12.498 [main] loggerLoad - User is in Array pages
+[INFO ] 2023-12-30 21:56:13.180 [main] Helper - Array page
+[INFO ] 2023-12-30 21:56:14.290 [main] loggerLoad - User should in Arrays in Python
+[INFO ] 2023-12-30 21:56:16.122 [main] loggerLoad - The user should be redirected to a page having an tryEditor with a Run button to test
+[DEBUG] 2023-12-30 21:56:16.166 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:56:16.169 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-30 21:56:16.673 [main] loggerLoad - Validate the output
+[DEBUG] 2023-12-30 21:57:33.080 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-30 21:57:33.081 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:08:32.446 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:08:32.451 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 04:08:32.469 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:08:55.480 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:08:55.482 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 04:08:55.484 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:09:12.190 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:09:12.191 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 04:09:12.191 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:09:28.837 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:09:28.838 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 04:09:28.839 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:09:45.729 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:09:45.730 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 04:09:45.731 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:10:02.431 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:10:02.433 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 04:10:02.434 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:10:19.162 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:10:19.163 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 04:10:19.164 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:10:35.821 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:10:35.822 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 04:10:35.823 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:14:42.680 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:14:42.682 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 04:14:59.569 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:14:59.570 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-31 04:15:17.859 [main] loggerLoad - User is in homepage
+[INFO ] 2023-12-31 04:15:18.493 [main] Helper - opened Ds-slgo-page
+[INFO ] 2023-12-31 04:15:19.737 [main] loggerLoad - User is in Array pages
+[INFO ] 2023-12-31 04:15:20.048 [main] Helper - Array page
+[INFO ] 2023-12-31 04:15:20.527 [main] loggerLoad - User should in Arrays in Python
+[INFO ] 2023-12-31 04:15:21.773 [main] loggerLoad - The user should be redirected to a page having an tryEditor with a Run button to test
+[DEBUG] 2023-12-31 04:15:21.788 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:15:21.790 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-31 04:15:22.147 [main] loggerLoad - Validate the output
+[INFO ] 2023-12-31 04:15:28.945 [main] Helper - User is directed to Linked List pages
+[DEBUG] 2023-12-31 04:15:30.105 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 04:15:30.106 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-31 04:15:30.422 [main] loggerLoad - Validate the output

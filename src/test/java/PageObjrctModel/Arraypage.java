@@ -1,23 +1,17 @@
 package PageObjrctModel;
 
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.WheelInput.ScrollOrigin;
 import org.openqa.selenium.support.locators.RelativeLocator;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import Utlity.Helper;
 
 
 public class Arraypage extends Helper {
-         protected static String string = "Array";
-         protected static String arr;
+     protected static String string = "Array";
+     protected static String arr;
      protected static  JavascriptExecutor js;
 	 static By dropdownmenu = By.xpath("//a[@class='nav-link dropdown-toggle\']");
 	 static By getstarted1 = By.xpath("//a[@href='data-structures-introduction']");
@@ -38,27 +32,20 @@ public class Arraypage extends Helper {
 	 static	By password = By.name("password");
 	 static	By login  = By.xpath("//input[@type='submit']");
 	 static	 By SiginOut  = By.xpath("//a[text()='Sign out']");
-	
-		 
+	 protected static By output = By.id("output");
+     protected static By Password = By.xpath("//*[@id='id_password']");
+     static By signout = By.xpath("//a[text()='Sign out']");  
+     
 			public void clickOnSignout() {
 				driver.findElement(SiginOut).click();
 			}
 			
-     
-     protected static By output = By.id("output");
-     protected static By Password = By.xpath("//*[@id='id_password']");
-     
-	   static By signout = By.xpath("//a[text()='Sign out']");  
-	 @SuppressWarnings("unused")
-	public static void clickgetstarted() throws InterruptedException {
-	//	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+			public static void clickgetstarted() throws InterruptedException {
+
+		    WebElement getstart = driver.findElement(getstarted1);
 		 
-	//	 String url = driver.getCurrentUrl();
-	//	 WebElement test  = driver.findElement(By.xpath("//div[contains(@class, 'bs-example')]"));
-		 WebElement getstart = driver.findElement(getstarted1);
-		 
-		By getstartedd = RelativeLocator.with(By.tagName("a")).toRightOf(getstart);
-        clickOnWebelement(driver.findElement(getstartedd),10);
+		    By getstartedd = RelativeLocator.with(By.tagName("a")).toRightOf(getstart);
+            clickOnWebelement(driver.findElement(getstartedd),10);
 
 		 }
 	 
@@ -85,18 +72,12 @@ public class Arraypage extends Helper {
     	 NavBack();
     	 
     	Actions ac = new Actions(driver);
-    	// ac.scrollByAmount(0,0);
+    	
     	 WebElement  elements = driver.findElement(ArrayusingList);
     	 System.out.println("Array using list");
     	
-     	// ac.setActiveWheel;
-     	
-          (ac.moveToElement(elements).click()).build().perform();
-
-    //	 ScrollOrigin scrollorigin = null;
-    	    	 
-    	 
-     }
+    	 (ac.moveToElement(elements).click()).build().perform();
+}
      public static void clickbasicoper() {
     	 NavBack();
     	 Actions ac = new Actions(driver);
@@ -110,24 +91,28 @@ public class Arraypage extends Helper {
     	 WebElement  elements = driver.findElement(Applicationofarr);
     	 (ac.moveToElement(elements).click()).build().perform(); 
      }
-     @SuppressWarnings("unused")
+     
 	public static String entercode(String Code) {
     	 
     	WebElement element = driver.findElement(texteditor);
     	 
         clickOnWebelement(element,10);
     	 
-    //	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
- 	//	element= wait.until(ExpectedConditions.elementToBeClickable(element));
+   
     	Actions act = new Actions(driver); 
-    	//element.click();
-    	//element.sendKeys(Code);
+    	
  		((act.moveToElement(element)).sendKeys(Code)).build().perform();
  					return Code;
      	
      }
      
-
+     public static String checkoutput(String out) {
+    	 
+     	WebElement ele = driver.findElement(output);
+     	out =  ele.getText();
+  		 return out;
+      	
+      }
      
      public static void clickonrun() {
     	 
@@ -164,13 +149,9 @@ public class Arraypage extends Helper {
     	 
        	
   	     Actions ac = new Actions(driver);
-//    	 WebElement  elements = driver.findElement(Applicationofarr);
-//    	 (ac.moveToElement(elements).click()).build().perform(); 
-//    		
-    		
-    	 WebElement pq3 = driver.findElement(By.xpath("//a[@href=\"/question/3\"]"));
+  	     WebElement pq3 = driver.findElement(By.xpath("//a[@href=\"/question/3\"]"));
     	 ac.moveToElement(pq3).click().build().perform();
-    //	 driver.findElement(texteditor).clear();
+   
     	 WebElement element = driver.findElement(texteditor);
     	 
     	 (ac.moveToElement(element)).click().build().perform();
@@ -182,13 +163,10 @@ public class Arraypage extends Helper {
     	 
       	
   	     Actions ac = new Actions(driver);
-//    	 WebElement  elements = driver.findElement(Applicationofarr);
-//    	 (ac.moveToElement(elements).click()).build().perform(); 
-//    		
     		
     	 WebElement pq4 = driver.findElement(By.xpath("//a[@href=\"/question/4\"]"));
     	 ac.moveToElement(pq4).click().build().perform();
-    	// driver.findElement(texteditor).clear();
+    	
     	 WebElement element = driver.findElement(texteditor);
     	 (ac.moveToElement(element)).click().build().perform();
         
